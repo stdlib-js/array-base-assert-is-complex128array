@@ -48,7 +48,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import isComplex128Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-assert-is-complex128array@esm/index.mjs';
+import isComplex128Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-assert-is-complex128array@v0.2.0-esm/index.mjs';
 ```
 
 #### isComplex128Array( value )
@@ -102,7 +102,7 @@ import Float32Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-float32@es
 import Float64Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-float64@esm/index.mjs';
 import Complex128Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-complex128@esm/index.mjs';
 import Complex64Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-complex64@esm/index.mjs';
-import isComplex128Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-assert-is-complex128array@esm/index.mjs';
+import isComplex128Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-assert-is-complex128array@v0.2.0-esm/index.mjs';
 
 var bool = isComplex128Array( new Complex128Array( 10 ) );
 // returns true
