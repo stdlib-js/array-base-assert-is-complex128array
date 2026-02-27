@@ -99,7 +99,7 @@ var bool = isComplex128Array( arr );
 
 ## Examples
 
-<!-- eslint-disable object-curly-newline -->
+<!-- eslint-disable object-curly-newline, stdlib/eol-open-bracket-spacing, stdlib/line-closing-bracket-spacing -->
 
 <!-- eslint no-undef: "error" -->
 
@@ -153,7 +153,7 @@ bool = isComplex128Array( new Uint8Array( 10 ) );
 bool = isComplex128Array( new Uint8ClampedArray( 10 ) );
 // returns false
 
-bool = isComplex128Array({ 'length': 0 });
+bool = isComplex128Array( { 'length': 0 } );
 // returns false
 ```
 
