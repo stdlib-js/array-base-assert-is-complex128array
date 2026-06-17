@@ -1,4 +1,4 @@
-/**
+/*
 * @license Apache-2.0
 *
 * Copyright (c) 2024 The Stdlib Authors.
@@ -16,29 +16,32 @@
 * limitations under the License.
 */
 
-'use strict';
+// TypeScript Version: 4.1
+
+/// <reference types="https://cdn.jsdelivr.net/gh/stdlib-js/types@esm/index.d.ts"/>
+
+import { Collection, Complex128Array } from '@stdlib/types/array';
 
 /**
-* Test if a value is a `Complex128Array`.
+* Tests if a value is a `Complex128Array`.
 *
-* @module @stdlib/array-base-assert-is-complex128array
+* @param value - value to test
+* @returns boolean indicating whether a value is a `Complex128Array`
 *
 * @example
 * var Complex128Array = require( '@stdlib/array-complex128' );
-* var isComplex128Array = require( '@stdlib/array-base-assert-is-complex128array' );
 *
-* var bool = isComplex128Array( new Complex128Array( 10 ) );
+* var arr = new Complex128Array( 10 );
+* var bool = isComplex128Array( arr );
 * // returns true
 *
-* bool = isComplex128Array( [] );
+* @example
+* var bool = isComplex128Array( [] );
 * // returns false
 */
-
-// MODULES //
-
-var main = require( './main.js' );
+declare function isComplex128Array( value: Collection | Complex128Array ): value is Complex128Array;
 
 
 // EXPORTS //
 
-module.exports = main;
+export = isComplex128Array;
